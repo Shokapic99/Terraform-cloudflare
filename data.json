@@ -6,5 +6,89 @@
     "9810": 50,
     "MWEQ": 80,
     "EMXC": 15
-  }
+  },
+  "ptf:prices": {
+    "2823": 16.12,
+    "3087": 305.7,
+    "3448": 115.2,
+    "9810": 9.625,
+    "MWEQ": 9.85,
+    "EMXC": 38.9
+  },
+  "ptf:ibkrCash": 651,
+  "ptf:reserveFR": 20600,
+  "ptf:reserveKR": 2000000,
+  "ptf:crypto": 1950,
+  "ptf:achats": [
+    {
+      "id": 1,
+      "ticker": "3087",
+      "month": "2026-02",
+      "parts": 10,
+      "prixUnit": 305.7,
+      "frais": 18
+    },
+    {
+      "id": 2,
+      "ticker": "2823",
+      "month": "2026-02",
+      "parts": 200,
+      "prixUnit": 16.12,
+      "frais": 18
+    },
+    {
+      "id": 3,
+      "ticker": "9810",
+      "month": "2026-01",
+      "parts": 50,
+      "prixUnit": 9.625,
+      "frais": 2.25
+    },
+    {
+      "id": 4,
+      "ticker": "3448",
+      "month": "2026-01",
+      "parts": 27,
+      "prixUnit": 115.2,
+      "frais": 18
+    },
+    {
+      "id": 5,
+      "ticker": "EMXC",
+      "month": "2026-03",
+      "parts": 15,
+      "prixUnit": 38.9,
+      "frais": 4
+    }
+  ],
+  "ptf:transferts": [
+    {
+      "id": 1,
+      "month": "2024-12",
+      "devise": "EUR",
+      "montantEnvoye": 50,
+      "montantArrive": 57
+    },
+    {
+      "id": 2,
+      "month": "2024-12",
+      "devise": "EUR",
+      "montantEnvoye": 950,
+      "montantArrive": 1117.74
+    },
+    {
+      "id": 3,
+      "month": "2025-01",
+      "devise": "EUR",
+      "montantEnvoye": 1003.6,
+      "montantArrive": 1000
+    },
+    {
+      "id": 4,
+      "month": "2026-03",
+      "devise": "EUR",
+      "montantEnvoye": 500,
+      "montantArrive": 500
+    }
+  ]
 }
